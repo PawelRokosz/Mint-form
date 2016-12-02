@@ -116,7 +116,7 @@ header .log{
 }
 
 header .sign{
-  padding-right: 10px;
+  margin-right: 10px;
   font-size: 15px;
 }
 
@@ -127,11 +127,132 @@ header .sign{
 */
 
 section{
-  width: 700px;
+  width: 710px;
   height: 620px;
   margin: 0 360px;
-  padding: 43px 50px 50px 50px;
+  padding: 43px 25px 50px 50px;
   box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+section .form-wrapper{
+  width: 400px;
+  height: 620px;
+  display: inline-block;
+  margin-right: 82px;
+}
+
+section .info{
+  width: 197px;
+  height: 580px;
+  margin-bottom: 40px;
+  padding-left: 25px;
+  border-left: 1px solid lightgrey;
+  background: white;
+  display: inline-block;
+}
+
+section .info .info-txt{
+  width: 140px;
+  height: 540px;
+  padding: 21px 17px 19px 40px;
+  background: #f5f5f5;
+  position: relative;
+}
+
+.info-txt p{
+  font-weight: lighter;
+  font-size: 20px;
+  position: absolute;
+  top: 30px;
+  left: 22px;
+  color: #666;
+}
+
+.info-txt ol{
+  position: absolute;
+  color: #666;
+  font-size: 12px;
+  font-weight: lighter;
+  list-style-type: square;
+  left: 35px;
+  top: 60px;
+  width: 130px;
+}
+
+.info-txt ol li{
+  padding-bottom: 15px;
+}
+
+.info-txt ol li a{
+  text-decoration: underline;
+  color: #666;
+}
+
+.form-wrapper{
+  position: relative;
+}
+
+.form-wrapper p.title{
+  position: absolute;
+  font-size: 30px;
+  font-weight: lighter;
+  line-height: 40px;
+}
+
+.form-wrapper .form-container{
+  position: absolute;
+  top: 130px;
+  left: 0;
+}
+
+.form-wrapper form label{
+  display: block;
+  padding: 20px 0;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.form-wrapper form .input-txt{
+  border-radius: 3px;
+  border: 1px solid #d8d8d8;
+  width: 320px;
+  padding-left: 8px;
+  padding-right: 6px;
+  height: 32px;
+  font-size: 0.9em;
+}
+
+.form-wrapper form .input-check{
+  border-radius: 3px;
+  border: 1px solid #d8d8d8;
+  width: 17.5px;
+  padding-bottom: 5px;
+  height: 12.5px;
+}
+
+.form-wrapper form input[type=submit]{
+    text-transform: uppercase;
+    width: 70px;
+    height: 34px;
+    background: #45cae6;
+    border: none;
+    cursor: pointer;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    color: white;
+}
+
+.form-wrapper p.small{
+  position: absolute;
+  top: 600px;
+  font-size: 12px;
+  font-weight: lighter;
+  color: #7d7f80;;
+}
+
+.form-wrapper p.small a{
+  color: #45cae6;
+  text-decoration: none;
 }
 
 /*
@@ -143,5 +264,10 @@ section{
 footer{
   width: 1500px;
   height: 185px;
-  padding: 40px 100px;
+  padding: 40px 0;
+  text-align: center;
+}
+
+footer a{
+  text-align: center;
 }
