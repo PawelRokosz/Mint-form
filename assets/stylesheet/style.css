@@ -247,7 +247,7 @@ section .info .info-txt{
   top: 600px;
   font-size: 12px;
   font-weight: lighter;
-  color: #7d7f80;;
+  color: #7d7f80;
 }
 
 .form-wrapper p.small a{
@@ -263,11 +263,61 @@ section .info .info-txt{
 
 footer{
   width: 1500px;
-  height: 185px;
+  height: 250px;
   padding: 40px 0;
   text-align: center;
 }
 
 footer a{
   text-align: center;
+  text-decoration: none;
+  color: #7d7f80;
+  font-size: 13px;
+  font-weight: 100;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-right: 1px solid #7d7f80;
+}
+
+footer a.last{
+  border: none;
+}
+
+footer a:hover{
+  text-decoration: underline;
+}
+
+footer .security{
+  padding-top: 60px;
+}
+
+footer .security a{
+  background-image: url(https://images.mint.com/web-client/images/security/truste.svg);
+  display: inline-block;
+  height: 58px;
+  text-indent: -9999px;
+  width: 140px;
+  background-repeat: no-repeat;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  background-size: 80% 80%;
+  border: none;
+  vertical-align: middle;
+  margin-top: 17px;
+}
+
+footer .security img{
+  height: 58px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px;
+  margin-left: 50px;
+}
+
+footer p{
+  padding-top: 20px;
+  font-size: 11px;
+  font-weight: 100;
+  color: #7d7f80;
 }
